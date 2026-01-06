@@ -80,8 +80,8 @@ nav ul {
     
 }
 
-    .lista-ingredientes ul li {
-    list-style-type: disc;
+    ul.lista-ingredientes ul li {
+    list-style-type: none;
     margin-bottom: 5px;
 }
 
