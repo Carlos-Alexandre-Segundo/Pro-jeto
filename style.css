@@ -13,11 +13,12 @@
 }
 
     header {
+    position:relative;
     background-color: rgb(0, 76, 153);
     color: rgb(255, 255, 255);
     padding: 0px 10px;
-    font-size: 28px;
-    box-shadow: 0px 0px 5px 5px;
+    font-size: 28px;  
+    box-shadow: 0px 0px 5px 5px rgb(39, 39, 39);
     box-sizing: border-box;
 }
 
@@ -30,11 +31,20 @@ nav ul {
 }
 
     .conteudo-principal {
-    display: flex;
+    display: block;
     flex-direction: row;
     width: 100%;
     min-height: calc(100vh - 60px);
 }
+
+    #andar-topo {
+        display: flex;
+}
+    #andar-baixo {
+        display: flex;
+        margin-bottom: 20px;
+}
+
     .main-image {
     max-width: 50%;
     height: auto;
@@ -64,11 +74,13 @@ nav ul {
     padding-left: 0px 20px;
 }
 
-    ul#lista-ingredientes {
+    .ingredientes {
     padding-left: 20px;
+    margin: 20px 20px 20px 0px;
+    
 }
 
-    ul#lista-ingredientes li {
+    .lista-ingredientes ul li {
     list-style-type: disc;
     margin-bottom: 5px;
 }
