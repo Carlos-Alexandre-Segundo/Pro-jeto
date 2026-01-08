@@ -1,4 +1,7 @@
-    
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=RocknRoll+One&family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&family=Squada+One&display=swap');
+
+
     
     * {
     margin: 0;
@@ -24,9 +27,10 @@
     display: flex;
     flex-direction: row;
     gap: 50px;
-    
-    
 }
+
+
+    
     nav {
         display: flex;
         align-items: center;
@@ -56,13 +60,23 @@
     margin: 0;
     padding: 0;
 }
-
     .conteudo-principal {
+    
     display: block;
     flex-direction: row;
-    width: 100%;
     min-height: calc(100vh - 60px);
 }
+    #about h1 {
+        font-family: "Squada One", sans-serif;
+        font-size: 50px;
+        padding: 50px 0px;
+    }
+    #about p , h2, p{
+        font-family: "Google Sans Flex", sans-serif;
+        font-size: 20px;
+        line-height: 1.6;
+        padding-bottom: 20px;
+    }
 
 #cabeçalho-menu li {
     padding: 10px 15px;
