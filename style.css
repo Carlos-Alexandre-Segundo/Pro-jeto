@@ -1,4 +1,4 @@
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    
     
     * {
     margin: 0;
@@ -14,20 +14,47 @@
 
     header {
     position:relative;
-    background-color: rgb(0, 76, 153);
-    color: rgb(255, 255, 255);
-    padding: 0px 10px;
-    font-size: 28px;  
+    background-color: #004c99;
     box-shadow: 0px 0px 5px 5px rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+    font-size: 28px;  
     box-sizing: border-box;
+    height: 143px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+    
+}
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 150%;
+}
+
+    #navbar {
+    display: flex;
+    align-items: center;
+}
+    
+
+    #logo {
+    width: 138px;
+    height: 72px;
+    margin: 19px 0px 0px 129px;
 }
 
 
 
-nav ul {
-    text-align: center;
-    padding-left: 0px;
-    font-family: arial-label, sans-serif;
+ #cabeçalho-menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
 }
 
     .conteudo-principal {
@@ -37,19 +64,36 @@ nav ul {
     min-height: calc(100vh - 60px);
 }
 
+#cabeçalho-menu li {
+    padding: 10px 15px;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+#cabeçalho-menu li:hover {
+    color: #ffffff;
+    text-underline-offset: #fff;
+    text-decoration: underline;
+    
+}
+
     #andar-topo {
         display: flex;
 }
-    #andar-baixo {
+    /*#andar-baixo {
         display: flex;
         margin-bottom: 20px;
-}
+        background-color: rgb(255, 255, 255);
+}*/
 
     .main-image {
+    object-fit: cover;
     max-width: 50%;
-    height: auto;
     padding: 0%;
     margin: 0%;
+    min-height: calc(100vh - 99px);
 }
     
 
@@ -68,7 +112,7 @@ nav ul {
     text-align: left;
 }
 
-    li {
+   /* li {
     list-style-type: none;
     display: inline;
     padding-left: 0px 20px;
@@ -91,6 +135,3 @@ footer {
     color: #666;
     text-align: center;
 }
-
-
-
