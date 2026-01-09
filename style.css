@@ -12,13 +12,13 @@
     body {
     display: flex;
     flex-direction: column;
-    background-color: rgb(237, 232, 208);
+    background-color: #fdf6e8;
 }
 
     header {
     position:relative;
-    background-color: #004c99;
-    box-shadow: 0px 0px 5px 5px rgb(39, 39, 39);
+    background-color: #004976;
+    box-shadow: 0px 0px 5px 5px rgb(39, 39, 39, 0.2);
     color: rgb(255, 255, 255);
     font-size: 28px;  
     box-sizing: border-box;
@@ -48,7 +48,8 @@
     #logo {
     width: 138px;
     height: 72px;
-    margin: 19px 0px 0px 129px;
+    margin: 25px 0px 0px 129px;
+    padding-top: 0px;
 }
 
 
@@ -65,17 +66,20 @@
     display: block;
     flex-direction: row;
     min-height: calc(100vh - 60px);
+    
 }
     #about h1 {
         font-family: "Squada One", sans-serif;
         font-size: 50px;
         padding: 50px 0px;
+        color: #004976;
     }
     #about p , h2, p{
         font-family: "Google Sans Flex", sans-serif;
         font-size: 20px;
         line-height: 1.6;
         padding-bottom: 100px;
+        color: #004976
     }
 
     .preparacao-wrapper {
@@ -86,13 +90,14 @@
     padding: 20px;
     }
     
-    #relogio {
+    .relogio {
         display: grid;
         grid-template-columns: repeat(4, auto);
         gap: 40px;
+        color:#004976
     }
 
-    #atributos-de-preparacao-agrupados{
+    .atributos-de-preparacao-agrupados{
         display: grid;
         grid-template-columns: repeat(4, auto);
         gap: 40px;
@@ -100,19 +105,26 @@
         padding: 0;
         margin: 0;
         text-align: center;
-        font-family: "squada one", sans-serif;
-        font-size: 28px;
+        color:#004976;
+        font-family: "Squada One", sans-serif;
+        font-size: 28px
+    }
 
+    .porcao-texto, .tempo-de-preparo-texto, .tempo-de-cozimento-texto, .pronto-em-texto {
+    font-size: 19px;
+    gap: 40px;
+    align-items: center;
+    font-family: "Google Sans Flex", sans-serif;
     }
 
 
-    #relogio img, 
-    #atributos-de-preparacao-agrupados li {
+    .relogio img, 
+    .atributos-de-preparacao-agrupados li {
     width: 150px; /* Mesma largura para alinhar */
     }
 
 
-#cabeçalho-menu li {
+    #cabeçalho-menu li {
     padding: 10px 15px;
     font-weight: 500;
     color: #ffffff;
@@ -121,7 +133,7 @@
     border-radius: 5px;
     }
 
-#cabeçalho-menu li:hover {
+    #cabeçalho-menu li:hover {
     color: #ffffff;
     text-underline-offset: #fff;
     text-decoration: underline;  
@@ -138,7 +150,7 @@
 
     .main-image {
     object-fit: cover;
-    max-width: 50%;
+    width: 50%;
     padding: 0%;
     margin: 0%;
     min-height: calc(100vh - 99px);
