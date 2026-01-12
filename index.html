@@ -7,67 +7,86 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- cabeçalho da página -->
     <header>
         <img id="logo" src="assets/115359334.avif" alt="hellmann logo">
-        <nav id="navbar">
-            <ul id="cabeçalho-menu">
+        <nav class="navbar">
+            <ul class="navbar menu">
                 <li>PRODUTOS</li>
                 <li>RECEITAS IRRESISTÍVEIS</li>
                 <li>MODOS DE PREPARO</li>
             </ul>
         </nav>
-        <main class="conteudo-principal">
     </header>  
-    <section id="andar-topo">
-        <img class="main-image" src="assets/main-image.jpg" alt="Filé mignon com molho mostarda">
+<!-- página principal da página -->
+    <main class="conteudo-principal">
+    <section class="andar-topo">
         
-        <div id="page">
-            <section id="about">
-                <h1>Filé mignon com molho mostarda</h1>
-                <p>Uma opção fácil, rápida e deliciosa para o almoço? Temos! Com poucos ingredientes dá para ter um prato clássico e delicioso. 
+        <div class="page">
+            <section class="page principal-content">
+
+                <img id="main-image" src="assets/main-image.jpg" alt="Filé mignon com molho mostarda">
+
+                                    <!-- informações básicas da receita -->
+
+                <h1 class="page recipe-name">Filé mignon com molho mostarda</h1>
+                <p class="page descrition-recipe">Uma opção fácil, rápida e deliciosa para o almoço? Temos! 
+                    Com poucos ingredientes dá para ter um prato clássico e delicioso. 
                     O filé mignon com molho mostarda é muito simples e rápido, de inspiração francesa e que você faz rapidamente. 
                     O molho é super cremoso e vai bem acompanhado de batatas assadas ou uma porção de arroz fresquinho. Experimente!</p>
-                <section class="relogio">
-                    <img class="relogio porcao" src="assets/relogio.png" alt="ícone de relógio">
-                    <img class="relogio tempo-de-preparo" src="assets/relogio.png" alt="ícone de relógio">
-                    <img class="relogio tempo-de-cozimento" src="assets/relogio.png" alt="ícone de relógio">
-                    <img class="relogio pronto-em" src="assets/relogio.png" alt="ícone de relógio">
+
+                                    <!-- imagens e textos dos atributos de preparação da receita -->
+
+                <section class="page relogio">
+                    <img class="page relogio porcao" src="assets/relogio.png" alt="ícone de relógio">
+                    <img class="page relogio tempo-de-preparo" src="assets/relogio.png" alt="ícone de relógio">
+                    <img class="page relogio tempo-de-cozimento" src="assets/relogio.png" alt="ícone de relógio">
+                    <img class="page relogio pronto-em" src="assets/relogio.png" alt="ícone de relógio">
                 </section>
-                    <ul class="atributos-de-preparacao-agrupados">
-                        <li class="atributos-de-preparacao-agrupados porcao">PORÇÕES</li>
-                        <li class="atributos-de-preparacao-agrupados tempo-de-preparo">TEMPO DE PREPARO</li>
-                        <li class="atributos-de-preparacao-agrupados tempo-de-cozimento">TEMPO DE COZIMENTO</li>
-                        <li class="atributos-de-preparacao-agrupados pronto-em">PRONTO EM</li>
-                        <li class="atributos-de-preparacao-agrupados porcao-texto">2 porções</li>
-                        <li class="atributos-de-preparacao-agrupados tempo-de-preparo-texto">10 minutos</li>
-                        <li class="atributos-de-preparacao-agrupados tempo-de-cozimento-texto">10 minutos</li>
-                        <li class="atributos-de-preparacao-agrupados pronto-em-texto">20 minutos</li>
+
+                                    <!-- informações que ficarão abaixo das imagens dos atributos de preparação da receita -->
+
+                    <ul class="page info-recipe">
+                        <li class="page info-recipe porcao">PORÇÕES</li>
+                        <li class="page info-recipe tempo-de-preparo">TEMPO DE PREPARO</li>
+                        <li class="page info-recipe tempo-de-cozimento">TEMPO DE COZIMENTO</li>
+                        <li class="page info-recipe pronto-em">PRONTO EM</li>
+                        <li class="page info-recipe porcao-texto">2 porções</li>
+                        <li class="page info-recipe tempo-de-preparo-texto">10 minutos</li>
+                        <li class="page info-recipe tempo-de-cozimento-texto">10 minutos</li>
+                        <li class="page info-recipe pronto-em-texto">20 minutos</li>
                     </ul>
-                </section>
             </section>
-            <!-- <section id="andar-baixo">
-                    <section id="ingredientes">
-                        <h2>Ingredientes</h2>
-                        <ul id="lista-ingredientes">
-                            <li>2 medalhões de filé mignon</li>
-                            <li>1 colher (café) de sal</li>
-                            <li>1 colher (café) de pimenta-do-reino preta em pó</li>
-                            <li>1 colher de sopa de azeite de oliva extra virgem</li>
-                            <li>1/2 xícara de chá de creme de leite fresco</li>
-                            <li>1 colher de sopa de Mostarda Hellmann's</li>
-                            <li>1 colher de chá de manteiga</li>
-                        </ul>
-                    </section>   
-            <section id="preparation">
-                <h2>Modo de Preparo</h2>
-                <p>
-                    Tempere os filés mignon com sal e pimenta do reino.<br>
-                    Aqueça uma frigideira ou grelha com o azeite e doure os dois lados dos medalhões (3 minutos de cada lado para carne ao ponto).<br>
-                    Na mesma frigideira, acrescente o creme de leite, a mostarda Hellmann's e deixe reduzir até obter a consistência desejada.<br>
-                    Sirva os medalhões com o molho de mostarda.
-                </p>
+    </section>
+
+                                    <!-- segunda página da receita com ingredientes e modo de preparo -->
+
+    <section class="andar-baixo">
+            <section class="ingredients">
+                <h2 class=" ingredients title">Ingredientes</h2>
+                    <ul class="ingredients list">
+                        <li>2 medalhões de filé mignon</li>
+                        <li>1 colher (café) de sal</li>
+                        <li>1 colher (café) de pimenta-do-reino preta em pó</li>
+                        <li>1 colher de sopa de azeite de oliva extra virgem</li>
+                        <li>1/2 xícara de chá de creme de leite fresco</li>
+                        <li>1 colher de sopa de Mostarda Hellmann's</li>
+                    </ul>
+            </section>   
+
+                                    <!-- informações da preparação do receita-->
+
+            <section class="preparation">
+                <h2 class="preparation title">Modo de Preparo</h2>
+                    <ul class="preparation steps">
+                        <li>Tempere os filés mignon com sal e pimenta do reino.</li>
+                        <li>Aqueça uma frigideira ou grelha com o azeite e doure os dois lados dos medalhões (3 minutos de cada lado para carne ao ponto).</li>
+                        <li>Na mesma frigideira, acrescente o creme de leite, a mostarda Hellmann's e deixe reduzir até obter a consistência desejada.</li>
+                        <li>Sirva os medalhões com o molho de mostarda.</li>
+                    </ul>
             </section>
-        </section> -->
+    </section>
+    </main>
             <footer>
                 <p>Feito pelo little second</p>
             </footer>
