@@ -4,27 +4,122 @@
 
     
     * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
+    }
 
     body {
-    display: flex;
-    flex-direction: column;
-    background-color: #fdf6e8;
-}
+        display: flex;
+        flex-direction: column;
+    }
 
     header {
-    position:relative;
-    background-color: #004976;
-    box-shadow: 0px 0px 5px 5px rgb(39, 39, 39, 0.2);
-    color: rgb(255, 255, 255);
-    font-size: 28px;  
-    box-sizing: border-box;
-    height: 143px;
-    text-align: center;
+        /* position: fixed; */
+        inset: 0;
+        height: 138px;
+        width: 100%;
+        background-color: #004679;
+    }
+
+    .logo {
+    }
+
+    .navbar {
+    
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .conteudo-principal {
     display: flex;
-    flex-direction: row;
-    gap: 50px;
-}
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .breadcrumbs {
+
+    }
+
+    .andar-topo {
+
+    }
+    
+    .page{
+
+    }
+
+    .principal-content{
+
+    }
+
+    #main-image {
+        max-width: 50%;
+        height: auto;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .recipe-name {
+
+    }
+
+    .description-recipe {
+
+    }
+
+    .imagem {
+
+    }
+
+    .porcoes {
+
+    }
+
+    .tempo-de-preparo {
+
+    }
+
+    .tempo-de.cozimento {
+
+    }
+
+    .pronto-em {
+
+    }
+
+    .andar-baixo {
+
+    }
+
+    .ingredients {
+
+    
+    }
+
+
+    .title {
+
+    }
+
+    .ingredient-list {
+
+    }
+
+    .preparation {
+
+    }
+
+    .preparation-list {
+
+    }
+
+    .preparation-steps {
+
+    }
+
+    .footer {
+
+    }
