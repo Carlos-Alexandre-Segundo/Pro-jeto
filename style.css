@@ -2,152 +2,149 @@
 @import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&family=Squada+One&display=swap');
 
 
-    
-    * {
 
-    }
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
 
-    body {
-        display: flex;
-        flex-direction: column;
-    }
+body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 145px;
+}
 
-    header {
-        position: fixed;
-        inset: 0;
-        height: 114px;
-        width: 100%;
-        background-color: #004679;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        box-shadow: black 0px 0px 10px 10px;
-        z-index: 1;
-    }
-
-    
-    .navbar {
-        height: 114px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        list-style: none;
-        padding-bottom: 45px;
-    }
-    
-    .logo {
-        height: 72px;
-        width: 138px;
-        margin-left: 20px;
-        padding: 4px;
-    }
-    .menu {
-        display: flex;
-        list-style: none;
-        gap: 60px;
-        align-items: last baseline;
-        color: white;
-        font-size: 24px;
-    }
-
-    .conteudo-principal {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .breadcrumbs {
-        position: absolute;
-        top: 114px;
-        left: 0;
-        width: 100%;
-        padding: 20px;
-        color: white;
-        display: flex;
-        gap: 10px;
-        text-decoration: none;
-    }
-
-    .andar-topo {
-
-    }
-    
-    .page{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    .principal-content{
-        display: flex;
-        flex-direction: column;
-    }
-
-    #main-image {
-        display: flex;
-        flex-direction: column;
-        height: 889px;
-        width: 50%;
-    }
-
-    .recipe-name {
-
-    }
-
-    .description-recipe {
-
-    }
-
-    .imagem {
-
-    }
-
-    .porcoes {
-
-    }
-
-    .tempo-de-preparo {
-
-    }
-
-    .tempo-de.cozimento {
-
-    }
-
-    .pronto-em {
-
-    }
-
-    .andar-baixo {
-
-    }
-
-    .ingredients {
-
-    
-    }
+header {
+    width: 100%;
+    height: 145px;
+    background-color: #004976;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
 
 
-    .title {
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 45px;
+    width: 100%;
+}
 
-    }
+.logo {
+    width: 164px;
+    height: 94px;
+    margin-left: 90px;
+    margin-top: 10px;
+    padding: 4px;
+}
 
-    .ingredient-list {
 
-    }
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    align-items: baseline;
+    color: white;
+    font-size: 24px;
+    padding: 68px 45px 0px 45px;
+    font-family: 'Google Sans Flex';
+}
 
-    .preparation {
+.menu li:hover {
+    text-decoration: underline;
+    color: white;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+    cursor: pointer;
+}
 
-    }
+.conteudo-principal {
+    padding: 0;
 
-    .preparation-list {
+}
 
-    }
+.breadcrumbs {
+    position: absolute;
+    top: 150px; 
+    left: 145px; 
+    z-index: 10; 
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Google Sans Flex';
+    color: white;
+}
 
-    .preparation-steps {
+.breadcrumbs a{
+    color:white;
+    text-decoration: none;
+}
 
-    }
+.breadcrumbs :not(:last-child)::after {
+    content: " / ";
+    margin-left: 5px;
+    color: white;
+}
 
-    .footer {
 
-    }
+.andar-topo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.page {
+    width: 100%;
+    max-width: 940px;
+}
+
+.principal-content {
+}
+
+#main-image {
+    width: 100%;
+    max-width: 940px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.recipe-name {}
+
+.description-recipe {}
+
+.imagem {
+    color: black;
+}
+
+.porcoes {}
+
+.tempo-de-preparo {}
+
+.tempo-de.cozimento {}
+
+.pronto-em {}
+
+.andar-baixo {}
+
+.ingredients {}
+
+
+.title {}
+
+.ingredient-list {}
+
+.preparation {}
+
+.preparation-list {}
+
+.preparation-steps {}
+
+.footer {}
