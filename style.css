@@ -27,6 +27,7 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -88,6 +89,11 @@ header {
     text-decoration: none;
 }
 
+.link:hover{
+    cursor: pointer;
+    color: rgb(240, 237, 237)
+}
+
 .breadcrumbs :not(:last-child)::after {
     content: " / ";
     margin-left: 5px;
@@ -97,15 +103,7 @@ header {
 
 .andar-topo {
     display: flex;
-    justify-content: flex-start;
-}
-
-.page {
-    width: 100%;
-    max-width: 940px;
-}
-
-.principal-content {
+    flex-direction: row;
 }
 
 #main-image {
@@ -116,7 +114,9 @@ header {
     margin: 0 auto;
 }
 
-.recipe-name {}
+
+.recipe-name {
+}
 
 .description-recipe {}
 
