@@ -69,7 +69,7 @@ header {
 }
 
 .conteudo-principal {
-    padding: 0;
+    
 
 }
 
@@ -108,16 +108,30 @@ header {
 }
 
 #main-image {
-    width: 100%;
-    max-width: 940px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+    display: flex;
+    max-width: 50%;
+    height: 768px;
+    padding: 0%;
+    margin: 0%;
+    object-fit: cover;
 }
 
 .teste{
     display: flex;
+}
+
+.content{
+    display: flex;
     flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.whooper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .recipe-name {
@@ -155,3 +169,11 @@ header {
 .preparation-steps {}
 
 .footer {}
+
+
+@media (max-width: 800px) {
+    #main-image {
+        display: none;
+        visibility: hidden;
+    }
+}
