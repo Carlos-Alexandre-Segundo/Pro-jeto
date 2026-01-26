@@ -1,0 +1,101 @@
+[33mcommit cee0b01754607e3b57c23756235ba7cbd4eb488b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/codigos-atualizado[m[33m, [m[1;31morigin/feature/codigos-atualizado[m[33m)[m
+Author: Carlos Segundo <segundocarlosalexandre@gmail.com>
+Date:   Fri Jan 23 11:24:27 2026 -0400
+
+    refatorando o código
+
+[33mcommit 65b5ffa45e2da4388658a7d9d2cf9e1e3ec5b2ff[m
+Author: Carlos Segundo <segundocarlosalexandre@gmail.com>
+Date:   Thu Jan 22 14:51:55 2026 -0400
+
+    finalizei o header e o breadcrumbs
+
+[33mcommit f145ea51650a8418b8973dd12ab6fecd13b987a1[m
+Author: Carlos Segundo <segundocarlosalexandre@gmail.com>
+Date:   Tue Jan 20 13:47:37 2026 -0400
+
+    tentando
+
+[33mcommit f4e0d24d233f9b025f89f2b205393b9e8772510a[m
+Author: Carlos Segundo <segundocarlosalexandre@gmail.com>
+Date:   Mon Jan 19 11:56:57 2026 -0400
+
+    aaa
+
+[33mcommit 06a85ef48b67229f63d3292436ef52d9c004f730[m
+Author: Carlos Segundo <segundocarlosalexandre@gmail.com>
+Date:   Mon Jan 12 17:57:43 2026 -0400
+
+    reoganizando a estrutura html e fazendo um novo css (não fiquei contente com o resultado final da página)
+
+[33mcommit a391fa9c4d4b198b619ecbbb06a4cc80f6ee163f[m
+Author: Carlos Segundo <segundocarlosalexandre@gmail.com>
+Date:   Fri Jan 9 13:47:02 2026 -0400
+
+    finanlizando o projeto
+
+[33mcommit 50b88a869cccc49f5e58f54fcc806e8d83cbc1cf[m
+Author: Carlos Segundo <segundocarlosalexandre@gmail.com>
+Date:   Thu Jan 8 17:46:49 2026 -0400
+
+    alinhando imagem do relógio
+
+[33mcommit 57f4affcb95c7074fb08319613e7be1a99fd3f56[m
+Author: Carlos Segundo <segundocarlosalexandre@gmail.com>
+Date:   Thu Jan 8 16:21:07 2026 -0400
+
+    Não lembro se já tinha commitado antes
+
+[33mcommit 4bec0bf15211995232d1475c6eedfb39a738eacc[m
+Author: Carlos Segundo <segundocarlosalexandre@gmail.com>
+Date:   Thu Jan 8 13:58:48 2026 -0400
+
+    Ajustando a página inicial
+
+[33mcommit ac5f1d4681e3fe10d37afcd6a6aeac2b1698fcf3[m
+Author: Carlos Segundo <segundocarlosalexandre@gmail.com>
+Date:   Thu Jan 8 08:19:56 2026 -0400
+
+    feat: atualiza códigos do módulo main
+
+[33mcommit baac9f7fc73240260420436f34ade572be582a36[m
+Author: Carlos Segundo <segundocarlosalexandre@gmail.com>
+Date:   Tue Jan 6 17:32:13 2026 -0400
+
+    aaaaa
+
+[33mcommit 36ffe5caba516e466745c3bcf30f416e8dc3c7c7[m
+Author: Carlos Segundo <segundocarlosalexandre@gmail.com>
+Date:   Tue Jan 6 17:15:23 2026 -0400
+
+    arrumando a posição dos elementos
+
+[33mcommit c038c63214ee2cd6524085dea2410f80e47bfa6a[m
+Author: Carlos Segundo <segundocarlosalexandre@gmail.com>
+Date:   Tue Jan 6 16:20:26 2026 -0400
+
+    ajuda do mãozinha
+
+[33mcommit 7862e924ea65c03d92094a05bb0d3491cd0bf0e7[m
+Author: Carlos Segundo <segundocarlosalexandre@gmail.com>
+Date:   Tue Jan 6 15:21:33 2026 -0400
+
+    formatando o css
+
+[33mcommit 472d252c7e52722d1f5212eb83380f5924c79ace[m
+Author: Carlos Segundo <segundocarlosalexandre@gmail.com>
+Date:   Mon Jan 5 15:10:06 2026 -0400
+
+    Adicionando imagem e estilos
+
+[33mcommit 09ccf8e1417ce169a12f25aff46a10f4689e18e9[m
+Author: Carlos Segundo <segundocarlosalexandre@gmail.com>
+Date:   Mon Jan 5 15:00:33 2026 -0400
+
+    Começando estrutura html
+
+[33mcommit 6fe6e27b4f03df527e65e474d1372619a3c51f8a[m
+Author: Carlos Segundo <segundocarlosalexandre@gmail.com>
+Date:   Mon Jan 5 14:30:15 2026 -0400
+
+    Primeiro commit

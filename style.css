@@ -13,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 145px;
+    background-color: #f0ecde
 }
 
 header {
@@ -114,14 +115,20 @@ header {
     margin: 0 auto;
 }
 
-
-.recipe-name {
+.teste{
+    display: flex;
+    flex-direction: column;
 }
 
-.description-recipe {}
+.recipe-name {
+    
+}
+
+.description-recipe {
+
+}
 
 .imagem {
-    color: black;
 }
 
 .porcoes {}
