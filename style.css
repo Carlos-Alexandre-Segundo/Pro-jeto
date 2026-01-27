@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=RocknRoll+One&family=Squada+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&family=Squada+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Pompiere&family=RocknRoll+One&family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 * {
     margin: 0%;
     padding: 0%;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -68,16 +69,13 @@ header {
     cursor: pointer;
 }
 
-.conteudo-principal {
-    
-
-}
+.conteudo-principal {}
 
 .breadcrumbs {
     position: absolute;
-    top: 150px; 
-    left: 145px; 
-    z-index: 10; 
+    top: 150px;
+    left: 145px;
+    z-index: 10;
     padding: 10px 15px;
     border-radius: 5px;
     font-size: 18px;
@@ -85,12 +83,12 @@ header {
     color: white;
 }
 
-.breadcrumbs a{
-    color:white;
+.breadcrumbs a {
+    color: white;
     text-decoration: none;
 }
 
-.link:hover{
+.link:hover {
     cursor: pointer;
     color: rgb(240, 237, 237)
 }
@@ -116,34 +114,95 @@ header {
     object-fit: cover;
 }
 
-.teste{
-    display: flex;
-}
-
-.content{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
-.whooper{
+.container {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-content: flex-start;
 }
 
-.recipe-name {
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 180px 70px 80px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.whooper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-block: 20px;
+}
+
+.whooper img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+}
+
+.texto {
+    display: wrap;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-family: 'Google Sans Flex';
+    color: #004976;
+}
+
+.tempo {
+    font-family: 'Pompiere';
+    color: #004976;
+    font-size: 25px;
+}
+
+.porcoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     
 }
 
-.description-recipe {
-
+.tempo-de-preparo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
 }
 
-.imagem {
+.tempo-de-cozimento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
 }
+
+.pronto-em {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.recipe-name {
+    font-family: 'Google Sans Flex';
+    color: #004976;
+    font-size: 75px;
+    margin-bottom: 10px;
+}
+
+
+.descrition-recipe {
+    font-family: 'Roboto';
+    color: #004976;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.imagem {}
 
 .porcoes {}
 
