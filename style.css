@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=RocknRoll+One&family=Squada+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&family=Squada+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Pompiere&family=RocknRoll+One&family=Squada+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Pompiere&family=Roboto:ital,wght@0,100..900;1,100..900&family=RocknRoll+One&family=Squada+One&display=swap');
 
 * {
     margin: 0%;
@@ -14,7 +10,10 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 145px;
-    background-color: #f0ecde
+    background-color: #f0ecde;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 header {
@@ -29,7 +28,7 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
-    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.8);
 }
 
 
@@ -43,10 +42,11 @@ header {
 
 .logo {
     width: 164px;
-    height: 94px;
+    height: auto;
     margin-left: 90px;
     margin-top: 10px;
     padding: 4px;
+    max-height: 98px;
 }
 
 
@@ -57,8 +57,8 @@ header {
     align-items: baseline;
     color: white;
     font-size: 24px;
-    padding: 68px 45px 0px 45px;
     font-family: 'Google Sans Flex';
+    padding: 68px 45px 0px 45px;
 }
 
 .menu li:hover {
@@ -69,15 +69,12 @@ header {
     cursor: pointer;
 }
 
-.conteudo-principal {}
-
 .breadcrumbs {
     position: absolute;
     top: 150px;
     left: 145px;
     z-index: 10;
     padding: 10px 15px;
-    border-radius: 5px;
     font-size: 18px;
     font-family: 'Google Sans Flex';
     color: white;
@@ -99,52 +96,80 @@ header {
     color: white;
 }
 
+.conteudo-principal {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
 
 .andar-topo {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    min-height: 768px;
 }
 
 #main-image {
-    display: flex;
-    max-width: 50%;
-    height: 768px;
-    padding: 0%;
-    margin: 0%;
+    width: 50%;
+    height: auto;
+    min-height: 768px;
     object-fit: cover;
+    flex-shrink: 0;
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    align-content: flex-start;
+    width: 100%;
 }
 
 .content {
     display: flex;
     flex-direction: column;
     padding: 50px 180px 70px 80px;
-    margin-left: 40px;
-    position: relative;
+    width: 50%;
+    flex-shrink: 0;
+}
+
+.title-subtitle {
+    margin-bottom: 40px;
+}
+
+.recipe-name {
+    font-family: 'Google Sans Flex';
+    color: #004976;
+    font-size: 75px;
+    margin-bottom: 10px;
+    /* line-height: 1.1; */
+    word-wrap: break-word;
+}
+
+.descrition-recipe {
+    font-family: 'Roboto',sans-serif;
+    color: #004976;
+    margin-bottom: 30px;
+    font-size: 25px;
+    line-height: 1.4;;
 }
 
 .whooper {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    padding-block: 20px;
+    padding: 20px;
+    justify-content: space-between;
 }
 
 .whooper img {
     width: 45px;
     height: 45px;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .texto {
-    display: wrap;
-    flex-wrap: wrap;
     font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
     font-family: 'Google Sans Flex';
     color: #004976;
 }
@@ -153,81 +178,61 @@ header {
     font-family: 'Pompiere';
     color: #004976;
     font-size: 25px;
+    font-weight: normal;
 }
 
-.porcoes {
+.porcoes, .tempo-de-cozimento, .tempo-de-preparo, .pronto-em {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    
 }
 
-.tempo-de-preparo {
+.andar-baixo {
+    background-color: white;
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-around;
     align-items: center;
-    
-    
 }
 
-.tempo-de-cozimento {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    
+.ingredients {
+
 }
 
-.pronto-em {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    
-}
 
-.recipe-name {
+.the-title {
+    color: #004976;
+    font-size: 2.8rem;
     font-family: 'Google Sans Flex';
-    color: #004976;
-    font-size: 75px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
     margin-bottom: 10px;
 }
 
+.ingredients-list {
+    list-style: none;
+    font-family:'Roboto';
 
-.descrition-recipe {
-    font-family: 'Roboto';
-    color: #004976;
-    margin-bottom: 10px;
-    font-size: 25px;
 }
 
-.imagem {}
+.preparation {
 
-.porcoes {}
+    
+}
 
-.tempo-de-preparo {}
+.preparation-steps {
+    list-style:decimal-leading-zero;
+    font-family:'Roboto';
+    
 
-.tempo-de.cozimento {}
+}
 
-.pronto-em {}
+.footer {
 
-.andar-baixo {}
-
-.ingredients {}
-
-
-.title {}
-
-.ingredient-list {}
-
-.preparation {}
-
-.preparation-list {}
-
-.preparation-steps {}
-
-.footer {}
+}
 
 
 @media (max-width: 800px) {
