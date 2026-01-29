@@ -10,7 +10,6 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 145px;
-    background-color: #f0ecde;
     min-height: 100vh;
     width: 100%;
     overflow-x: hidden;
@@ -107,6 +106,7 @@ header {
     flex-direction: row;
     width: 100%;
     min-height: 768px;
+    background-color: #f0ecde;
 }
 
 #main-image {
@@ -163,7 +163,6 @@ header {
 .whooper img {
     width: 45px;
     height: 45px;
-    /* object-fit: cover; */
 }
 
 .texto {
@@ -189,47 +188,44 @@ header {
 
 .andar-baixo {
     background-color: white;
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    justify-content: space-around;
-    align-items: center;
+    padding: 70px 0px;
+    line-height:24px;
+}
+
+#max-width{
+    margin:0px 222px;
 }
 
 .ingredients {
-
+    color: #004976;
+    line-height: 2.5rem;
 }
 
 
 .the-title {
-    color: #004976;
-    font-size: 2.8rem;
     font-family: 'Google Sans Flex';
-    font-weight: 500;
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 10px;
-    margin-bottom: 10px;
+    font-size: 50px;
 }
 
 .ingredients-list {
-    list-style: none;
-    font-family:'Roboto';
+}
 
+.ingredients-list p{
+}
+
+.numbers{
 }
 
 .preparation {
-
-    
+    color: #004976;
+    line-height: 2.5rem;
 }
 
 .preparation-steps {
-    list-style:decimal-leading-zero;
-    font-family:'Roboto';
-    
-
 }
 
+.preparation-steps p{
+}
 .footer {
 
 }
