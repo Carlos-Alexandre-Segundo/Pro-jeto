@@ -140,7 +140,6 @@ header {
     color: #004976;
     font-size: 75px;
     margin-bottom: 10px;
-    /* line-height: 1.1; */
     word-wrap: break-word;
 }
 
@@ -163,6 +162,7 @@ header {
 .whooper img {
     width: 45px;
     height: 45px;
+    margin-bottom: 5px;
 }
 
 .texto {
@@ -190,43 +190,85 @@ header {
     background-color: white;
     padding: 70px 0px;
     line-height:24px;
+    display: flex;
 }
 
 #max-width{
     margin:0px 222px;
+    display: flex;
+    justify-content: space-between;
+    gap: 9.0rem;
+    width: 100%;
 }
 
 .ingredients {
     color: #004976;
     line-height: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
 }
 
 
 .the-title {
     font-family: 'Google Sans Flex';
-    font-size: 50px;
+    font-size: 40px;
+    margin-bottom: 2.0rem;
 }
 
 .ingredients-list {
 }
 
 .ingredients-list p{
-}
-
-.numbers{
+    font-family: 'Google Sans Flex';
+    font-size: 1.3rem;
+    color: #004976;
+    line-height: 3.5rem;
 }
 
 .preparation {
     color: #004976;
     line-height: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+
+
 }
 
 .preparation-steps {
+    list-style: none;
+    padding: 0;
 }
 
-.preparation-steps p{
+.preparation-steps li{
+    list-style: none;
+    font-family: 'Google Sans Flex';
+    font-size: 1.3rem;
+    color: #004976;
+    line-height: 3.0rem;
+
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 4.0rem;
+    gap: 15px;
 }
-.footer {
+
+.step-number {
+    font-family: 'Google Sans Flex';
+    font-size: 50px;
+    font-weight: bold;
+    color: #004976;
+    min-width: 40px; 
+    margin-right: 25px;
+}
+footer {
+    background-color: #004976;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Google Sans Flex';
 
 }
 
